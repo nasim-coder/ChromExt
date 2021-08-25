@@ -1,6 +1,6 @@
 {
     "manifest_version" : 2,
-    "name" : "WHATVEVER",
+    "name" : "Display Name",
     "version" : "0.1.0",
     "content_scripts": [
         {

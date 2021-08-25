@@ -9,7 +9,8 @@ function myFunc(){
     h1.innerHTML = text;
     h1.className = "myclass";
     document.body.insertBefore(h1, document.body.firstChild);
-    
+    document.getElementById("id1").remove;
+    document.getElementById("id2").remove;
    }
 
 
@@ -23,12 +24,12 @@ s.id = "id2";
 document.body.insertBefore(s, document.body.firstChild);
 
 //Create an input element for Full Name
-    var FN = document.createElement("input");
-    FN.setAttribute("type", "text");
-    FN.setAttribute("name", "FullName");
-    FN.setAttribute("placeholder", "Enter your Name");
-    FN.id = "id1";
-    document.body.insertBefore(FN, document.body.firstChild);
+var FN = document.createElement("input");
+FN.setAttribute("type", "text");
+FN.setAttribute("name", "FullName");
+FN.setAttribute("placeholder", "Enter your Name");
+FN.id = "id1";
+document.body.insertBefore(FN, document.body.firstChild);
     
    
 

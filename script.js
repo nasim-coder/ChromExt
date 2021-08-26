@@ -1,12 +1,12 @@
 //create a submit button
 function myFunc() {
   let text = document.getElementById("id1").value;
-  console.log(text);
+  // console.log(text);
   var h1 = document.createElement("h1");
-  h1.innerHTML = text;
+  h1.innerHTML = "Welcome "+text;
   h1.className = "myclass";
   document.body.insertBefore(h1, document.body.firstChild);
-  document.getElementById("id1").hidden;
+  document.getElementById("id1").removeAttributeNode;
   document.getElementById("id2").hidden;
 }
 

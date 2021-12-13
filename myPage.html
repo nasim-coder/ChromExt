@@ -8,12 +8,12 @@
     <title>My search page</title>
     <style>
         html {
-            background: url(images/17.jpg) no-repeat center center fixed;
+            background: url(images/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background-color: rgb(194, 133, 48);
+            background-color: rgb(179, 136, 77);
         }
 
         div {
@@ -48,11 +48,10 @@
             margin-left: auto;
             margin-top: 200px;
             font-size: 1vw;
-            
         }
         
         .greeting {
-            
+            color: white;
             float: none;
             text-align: center;
             font-size: 40px;
@@ -60,23 +59,31 @@
          .form {
             display: inline;
         }
-        .date{
+        .time{
             float: right;
-            margin-right: 15px;
-            margin-top: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
             font-size: 30px;
+            color: rgb(236, 184, 12);
         }
-
+        .date {
+            float: left;
+            
+            padding-top: 15px;
+            font-size: 30px;
+            color: yellow;
+        }
         
     </style>
 </head>
 
 <body>
     <div>
+        <span class="date">Date</span>
         <form class ="form" action="https://www.google.com/search">
             <input type="text" name="q" placeholder="Enter yur query to search in google">
         </form>
-        <span class="date">Date</span>
+        <span class="time"></span>
     </div>
 
     <div>

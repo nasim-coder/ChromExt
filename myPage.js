@@ -30,6 +30,9 @@ function showTheQuote() {
 	let currentHours = today.getHours();
 	let greeting = getGreetings(currentHours);
 	document.querySelector(".greeting").innerHTML = greeting + " Nasim, Hope you are doing well"
+
+
+	document.querySelector(".date").innerHTML=new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
 }
 //Once DOM is loaded run the showTheContent method 
 window.addEventListener('DOMContentLoaded', showTheQuote,);

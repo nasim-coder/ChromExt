@@ -13,7 +13,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background-color: rgb(95, 68, 29);
+            background-color: rgb(194, 133, 48);
         }
 
         div {
@@ -55,18 +55,35 @@
             
             float: none;
             text-align: center;
+            font-size: 40px;
         }
-    
+         .form {
+            display: inline;
+        }
+        .date{
+            float: right;
+            margin-right: 15px;
+            margin-top: 15px;
+            font-size: 30px;
+        }
+
+        
     </style>
 </head>
 
 <body>
     <div>
-        <form action="https://www.google.com/search">
+        <form class ="form" action="https://www.google.com/search">
             <input type="text" name="q" placeholder="Enter yur query to search in google">
         </form>
+        <span class="date">Date</span>
     </div>
-    <p class="greeting"></p>
+
+    <div>
+        <p class="greeting"></p>
+        
+    </div>
+    
     <div class="quotes-container">
         <h1 class="quotes"></h1>
         <p class="author"></p>

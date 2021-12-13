@@ -29,7 +29,7 @@ function showTheQuote() {
 	let today = new Date();
 	let currentHours = today.getHours();
 	let greeting = getGreetings(currentHours);
-	document.querySelector(".greeting").innerHTML = greeting + ", Nasim. Hope you are doing well"
+	document.querySelector(".greeting").innerHTML = greeting + " Nasim, Hope you are doing well"
 }
 //Once DOM is loaded run the showTheContent method 
 window.addEventListener('DOMContentLoaded', showTheQuote,);

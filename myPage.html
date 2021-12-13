@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My search page</title>
+    <style>
+        html {
+            background: url(images/17.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-color: rgb(95, 68, 29);
+        }
+
+        div {
+            text-align: center;
+        }
+
+        input {
+            width: 25rem;
+            height: 2rem;
+            background-color: rgba(59, 48, 48, 0.349);
+            border-radius: 20px;
+            border: none;
+            padding: 5px;
+            padding-left: 15px;
+            font-size: 1.5rem;
+            font-weight: lighter;
+
+        }
+
+        input:focus-visible {
+            outline: -webkit-focus-ring-color auto 1px;
+            outline-color: -webkit-focus-ring-color;
+            outline-style: none;
+            outline-width: 0px;
+        }
+        p{
+            float: right;
+        }
+        .quotes-container{
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 200px;
+            font-size: 1vw;
+            
+        }
+        
+        .greeting {
+            
+            float: none;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="Enter yur query to search in google">
+        </form>
+    </div>
+    <p class="greeting"></p>
+    <div class="quotes-container">
+        <h1 class="quotes"></h1>
+        <p class="author"></p>
+    </div>
+</body>
+<script src="myPage.js"></script>
+</html>

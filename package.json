@@ -1,0 +1,22 @@
+{
+  "name": "ms_chrome-extension_draco_tep_online_full-time_2021_5",
+  "version": "1.0.0",
+  "description": "## Learning Competencies",
+  "main": "myPage.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Online_Full-time_2021_5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Online_Full-time_2021_5/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/MS_Chrome-extension_Draco_Tep_Online_Full-time_2021_5#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

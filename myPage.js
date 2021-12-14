@@ -36,5 +36,5 @@ function showTheQuote() {
 //Once DOM is loaded run the showTheContent method 
 window.addEventListener('DOMContentLoaded', showTheQuote,);
 
-module.exports=getGreetings;
+
  

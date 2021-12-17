@@ -26,10 +26,18 @@ function showTheQuote() {
 		}
 	}
 
+	let name = localStorage.getItem('name')
+	if((name === undefined || name == null || name.length <= 0)){
+		name = prompt("Plase enter your name:");
+		localStorage.setItem('name', name);
+	}
+
+	
+
 	let today = new Date();
 	let currentHours = today.getHours();
 	let greeting = getGreetings(currentHours);
-	document.querySelector(".greeting").innerHTML = greeting + " Nasim"
+	document.querySelector(".greeting").innerHTML = greeting + " "+name;
 	document.querySelector(".time").innerHTML=new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
 	document.querySelector('.date').innerHTML=new Date().toDateString();
 }

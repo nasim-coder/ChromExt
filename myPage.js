@@ -1,4 +1,5 @@
 
+
 function showTheQuote() {
 	//getting random index of th array to fetch the quotes
 	let rnum = Math.floor(Math.random() * 1642);

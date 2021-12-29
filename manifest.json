@@ -14,7 +14,7 @@
       },
       "chrome_url_overrides" : {
         "newtab": "myPage.html"
-      }
+      },
     "author": "Nasim"
   }
   

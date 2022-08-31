@@ -11,8 +11,7 @@ function showTheQuote() {
 		.then(function (data) {
 			document.querySelector(".quotes").innerHTML = data[rnum].text;
 			document.querySelector(".author").innerHTML = "-" + data[rnum].author;
-		}).catch(error =>
-			console.error(error));
+		}).catch(err =>console.error(err));
 
 
 	//returns the greeting as per the time

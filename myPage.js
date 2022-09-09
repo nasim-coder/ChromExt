@@ -1,5 +1,4 @@
-
-
+// function to show quote
 function showTheQuote() {
 	//getting random index of th array to fetch the quotes
 	let rnum = Math.floor(Math.random() * 1642);
@@ -31,9 +30,7 @@ function showTheQuote() {
 		name = prompt("Plase enter your name:");
 		localStorage.setItem('name', name);
 	}
-
 	
-
 	let today = new Date();
 	let currentHours = today.getHours();
 	let greeting = getGreetings(currentHours);
